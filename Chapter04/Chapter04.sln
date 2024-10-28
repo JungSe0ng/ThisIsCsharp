@@ -3,13 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_ArithmaticOperators", "01_ArithmaticOperators\01_ArithmaticOperators.csproj", "{C7966F6E-7481-411E-8DCD-EB75523812E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_ArithmaticOperators", "01_ArithmaticOperators\01_ArithmaticOperators.csproj", "{C7966F6E-7481-411E-8DCD-EB75523812E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_IncDecOperator", "02_IncDecOperator\02_IncDecOperator.csproj", "{B1330BCF-3B6F-4777-A66F-DB2F7E51BFC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_IncDecOperator", "02_IncDecOperator\02_IncDecOperator.csproj", "{B1330BCF-3B6F-4777-A66F-DB2F7E51BFC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_StringConcatenate", "03_StringConcatenate\03_StringConcatenate.csproj", "{EB6C0102-3F90-4591-9F3B-BB298F2E9784}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_StringConcatenate", "03_StringConcatenate\03_StringConcatenate.csproj", "{EB6C0102-3F90-4591-9F3B-BB298F2E9784}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_RelationalOperator", "04_RelationalOperator\04_RelationalOperator.csproj", "{875D135E-B6FC-423B-B159-E6FBF3CF6E89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_RelationalOperator", "04_RelationalOperator\04_RelationalOperator.csproj", "{875D135E-B6FC-423B-B159-E6FBF3CF6E89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_LogicalOperator", "05_LogicalOperator\05_LogicalOperator.csproj", "{4C06EBD3-5B41-4FA5-981E-AB7501D2482E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_ConditionalOperator", "ConditionalOperator\06_ConditionalOperator.csproj", "{DEFF4938-40AC-47E7-A7B4-6EA6BB449A20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_NullConditionalOperator", "07_NullConditionalOperator\07_NullConditionalOperator.csproj", "{FCB2FB87-010C-49FB-99BD-55B19BC6E414}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_ShiftOperator", "08_ShiftOperator\08_ShiftOperator.csproj", "{B11062BF-5CE6-4758-ADDF-39315C4DF9B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_BitwiseOperator", "09_BitwiseOperator\09_BitwiseOperator.csproj", "{97AB0E84-B64C-4B86-9CF8-7A0352629007}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_AssignmentOperator", "10_AssignmentOperator\10_AssignmentOperator.csproj", "{C38D6D50-1A9E-4B1A-BCD9-CA367234D29E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_NullCoalescing", "11_NullCoalescing\11_NullCoalescing.csproj", "{D69DF345-C562-4D1C-8ACA-B864D1AA25EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +47,34 @@ Global
 		{875D135E-B6FC-423B-B159-E6FBF3CF6E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{875D135E-B6FC-423B-B159-E6FBF3CF6E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{875D135E-B6FC-423B-B159-E6FBF3CF6E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C06EBD3-5B41-4FA5-981E-AB7501D2482E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C06EBD3-5B41-4FA5-981E-AB7501D2482E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C06EBD3-5B41-4FA5-981E-AB7501D2482E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C06EBD3-5B41-4FA5-981E-AB7501D2482E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEFF4938-40AC-47E7-A7B4-6EA6BB449A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEFF4938-40AC-47E7-A7B4-6EA6BB449A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEFF4938-40AC-47E7-A7B4-6EA6BB449A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEFF4938-40AC-47E7-A7B4-6EA6BB449A20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB2FB87-010C-49FB-99BD-55B19BC6E414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB2FB87-010C-49FB-99BD-55B19BC6E414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB2FB87-010C-49FB-99BD-55B19BC6E414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB2FB87-010C-49FB-99BD-55B19BC6E414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B11062BF-5CE6-4758-ADDF-39315C4DF9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11062BF-5CE6-4758-ADDF-39315C4DF9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B11062BF-5CE6-4758-ADDF-39315C4DF9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11062BF-5CE6-4758-ADDF-39315C4DF9B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97AB0E84-B64C-4B86-9CF8-7A0352629007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97AB0E84-B64C-4B86-9CF8-7A0352629007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97AB0E84-B64C-4B86-9CF8-7A0352629007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97AB0E84-B64C-4B86-9CF8-7A0352629007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C38D6D50-1A9E-4B1A-BCD9-CA367234D29E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38D6D50-1A9E-4B1A-BCD9-CA367234D29E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38D6D50-1A9E-4B1A-BCD9-CA367234D29E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38D6D50-1A9E-4B1A-BCD9-CA367234D29E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D69DF345-C562-4D1C-8ACA-B864D1AA25EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D69DF345-C562-4D1C-8ACA-B864D1AA25EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D69DF345-C562-4D1C-8ACA-B864D1AA25EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D69DF345-C562-4D1C-8ACA-B864D1AA25EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
