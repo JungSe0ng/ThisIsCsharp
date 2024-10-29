@@ -1,6 +1,8 @@
-﻿namespace _01_IfElse
+﻿using System;
+
+namespace _01_IfElse
 {
-    internal class Program
+    class MainApp
     {
         static void Main(string[] args)
         {
