@@ -3,21 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Calculator", "01_Calculator\01_Calculator.csproj", "{E2FF2AB0-3751-4A10-9579-6CD886BFF11A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Calculator", "01_Calculator\01_Calculator.csproj", "{E2FF2AB0-3751-4A10-9579-6CD886BFF11A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Return", "02_Return\02_Return.csproj", "{9097D6EE-E33B-4B1A-83B8-55B537FDA58D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Return", "02_Return\02_Return.csproj", "{9097D6EE-E33B-4B1A-83B8-55B537FDA58D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_SwapByValue", "03_SwapByValue\03_SwapByValue.csproj", "{BF6CCF88-AD2E-464F-94C7-AF7DEF6FE635}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_SwapByValue", "03_SwapByValue\03_SwapByValue.csproj", "{BF6CCF88-AD2E-464F-94C7-AF7DEF6FE635}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_SwapByRef", "04_SwapByRef\04_SwapByRef.csproj", "{E609C3C9-6110-42F4-BFE0-294F5ABC9FAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_SwapByRef", "04_SwapByRef\04_SwapByRef.csproj", "{E609C3C9-6110-42F4-BFE0-294F5ABC9FAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_RefReturn", "05_RefReturn\05_RefReturn.csproj", "{493157AF-C64F-44D4-B304-AE0B458F6BC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_RefReturn", "05_RefReturn\05_RefReturn.csproj", "{493157AF-C64F-44D4-B304-AE0B458F6BC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_UsingOut", "06_UsingOut\06_UsingOut.csproj", "{5C4C15DC-3D1B-452A-995B-4DAE5D0BFF5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_UsingOut", "06_UsingOut\06_UsingOut.csproj", "{5C4C15DC-3D1B-452A-995B-4DAE5D0BFF5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Overloading", "07_Overloading\07_Overloading.csproj", "{1E03A3C6-1EFE-47F2-9232-B28BAAECA93D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_Overloading", "07_Overloading\07_Overloading.csproj", "{1E03A3C6-1EFE-47F2-9232-B28BAAECA93D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_UsingParams", "08_UsingParams\08_UsingParams.csproj", "{ABB22960-EEDC-4615-9531-F4ACDF0BC23C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_UsingParams", "08_UsingParams\08_UsingParams.csproj", "{ABB22960-EEDC-4615-9531-F4ACDF0BC23C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_NamedParameter", "09_NamedParameter\09_NamedParameter.csproj", "{E658E91B-B147-4735-86B7-AF093CB8555F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_LocalFunction", "10_LocalFunction\10_LocalFunction.csproj", "{55CF9635-FCDA-4A88-871C-F05873E8362C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex_01", "Ex_01\Ex_01.csproj", "{691C6CCD-D3B0-42C8-941B-771490A7CD4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +63,18 @@ Global
 		{ABB22960-EEDC-4615-9531-F4ACDF0BC23C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABB22960-EEDC-4615-9531-F4ACDF0BC23C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABB22960-EEDC-4615-9531-F4ACDF0BC23C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E658E91B-B147-4735-86B7-AF093CB8555F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E658E91B-B147-4735-86B7-AF093CB8555F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E658E91B-B147-4735-86B7-AF093CB8555F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E658E91B-B147-4735-86B7-AF093CB8555F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55CF9635-FCDA-4A88-871C-F05873E8362C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55CF9635-FCDA-4A88-871C-F05873E8362C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55CF9635-FCDA-4A88-871C-F05873E8362C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55CF9635-FCDA-4A88-871C-F05873E8362C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691C6CCD-D3B0-42C8-941B-771490A7CD4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691C6CCD-D3B0-42C8-941B-771490A7CD4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691C6CCD-D3B0-42C8-941B-771490A7CD4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691C6CCD-D3B0-42C8-941B-771490A7CD4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
