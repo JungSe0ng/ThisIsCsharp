@@ -7,19 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Property", "01_Property\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_AutoImplementedProperty", "02_AutoImplementedProperty\02_AutoImplementedProperty.csproj", "{C01E2C7A-DD63-42B8-8545-60DC07DD1A6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_ConstructWithProperty", "03_ConstructWithProperty\03_ConstructWithProperty.csproj", "{9A091975-3A03-459D-A76E-E15D8A5AB421}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_ConstructWithProperty", "03_ConstructWithProperty\03_ConstructWithProperty.csproj", "{9A091975-3A03-459D-A76E-E15D8A5AB421}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_InitOnly", "04_InitOnly\04_InitOnly.csproj", "{07D6478C-4F3B-43E1-960D-925143D9D0C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_InitOnly", "04_InitOnly\04_InitOnly.csproj", "{07D6478C-4F3B-43E1-960D-925143D9D0C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_RequiredProperty", "05_RequiredProperty\05_RequiredProperty.csproj", "{DD64A6ED-5942-4203-8F53-DEEF2C9496CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_RequiredProperty", "05_RequiredProperty\05_RequiredProperty.csproj", "{DD64A6ED-5942-4203-8F53-DEEF2C9496CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Record", "06_Record\06_Record.csproj", "{69ABC205-2F73-4E8D-8C14-1C11A1BFFE72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_Record", "06_Record\06_Record.csproj", "{69ABC205-2F73-4E8D-8C14-1C11A1BFFE72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_WithExp", "07_WithExp\07_WithExp.csproj", "{BFBE01C2-6158-4F1C-95AB-896B3A5455C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_WithExp", "07_WithExp\07_WithExp.csproj", "{BFBE01C2-6158-4F1C-95AB-896B3A5455C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_RecordComp", "08_RecordComp\08_RecordComp.csproj", "{FA86DC49-6270-4809-913F-D2D53FA00334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_RecordComp", "08_RecordComp\08_RecordComp.csproj", "{FA86DC49-6270-4809-913F-D2D53FA00334}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_AnonymousType", "09_AnonymousType\09_AnonymousType.csproj", "{80D6ADE9-BB3D-45F2-BC8D-EB63AA7B53AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_AnonymousType", "09_AnonymousType\09_AnonymousType.csproj", "{80D6ADE9-BB3D-45F2-BC8D-EB63AA7B53AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_PropertiesInAbstractClass", "10_PropertiesInAbstractClass\10_PropertiesInAbstractClass.csproj", "{7C439FBA-FCE2-4A91-BCEB-E56997345C5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{80D6ADE9-BB3D-45F2-BC8D-EB63AA7B53AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80D6ADE9-BB3D-45F2-BC8D-EB63AA7B53AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80D6ADE9-BB3D-45F2-BC8D-EB63AA7B53AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C439FBA-FCE2-4A91-BCEB-E56997345C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C439FBA-FCE2-4A91-BCEB-E56997345C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C439FBA-FCE2-4A91-BCEB-E56997345C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C439FBA-FCE2-4A91-BCEB-E56997345C5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
